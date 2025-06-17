@@ -1,0 +1,43 @@
+/* Zip Code Search Container */
+.zip-code-search-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Search Form */
+#zip-code-search-form input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#zip-code-search-form button {
+    padding: 8px 15px;
+    background: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#zip-code-search-form button:hover {
+    background: #005d8c;
+}
+
+/* Results Styling */
+.zip-code-result {
+    margin-top: 15px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 3px;
+}
+
+.zip-code-result h3 {
+    margin-top: 0;
+    color: #333;
+}
