@@ -18,13 +18,15 @@ function zip_code_search_assets() {
     // CSS
     wp_enqueue_style(
         'zip-code-search-css',
-        plugin_dir_url(__FILE__) . 'assets/style.css'
+        plugin_dir_url(__FILE__) . 'assets/css/style.css', // Updated path
+        array(),
+        '1.0'
     );
     
     // JS
     wp_enqueue_script(
         'zip-code-search-js',
-        plugin_dir_url(__FILE__) . 'assets/script.js',
+        plugin_dir_url(__FILE__) . 'assets/js/script.js', // Updated path
         array('jquery'),
         '1.0',
         true
